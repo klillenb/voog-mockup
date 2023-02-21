@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "SharpSans";
+  src: url("../../assets/Fonts/SharpSans-Medium.woff") format('woff');
+}
+
+@font-face {
+  font-family: "SharpSans";
+  src: url("../../assets/Fonts/SharpSans-Semibold.woff") format('woff');
+  font-weight: bold;
+}
+
+
+body{
+  font-family: SharpSans, sans-serif;
+}
+
+.Navbar-start{
+  width: 100%;
+  padding: 32px;
+  background-color: transparent;
+}
+
+.voog-logo{
+  margin: 0 32px 0 0}
+
+.nav-left{
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-text{
+  font-family: SharpSans;
+  margin-right: 24px;
+  font-size: 14px;
+}
+
+.lang-text{
+  font-family: SharpSans;
+  font-size: 12px;
+}
+
+.nav-arrow-down{
+  margin-left: 16px;
+}
+
+.text-arrow:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.navbar-inner{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.nav-button-cta{
+  margin-left: 24px;
+  font-family: SharpSans !important;
+  font-size: 12px !important;
+  background-color: #443DF6 !important;
+  padding: 11px 16px !important;
+}
+
+.nav-button-cta:hover{
+  background-color: #3a34d1 !important;
+}
+
+.nav-button-lang{
+  font-family: SharpSans !important;
+  font-size: 12px !important;
+  background-color: transparent !important;
+  border: solid 2px #ccc !important;
+  padding: 11px 16px !important;
+  margin-left: 24px;
+}
+
+
+.nav-button-lang:hover{
+  background-color: transparent !important;
+  border: solid 2px black !important;
+}
