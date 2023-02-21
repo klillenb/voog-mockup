@@ -35,6 +35,11 @@ body{
   font-size: 14px;
 }
 
+.lang-text{
+  font-family: SharpSans;
+  font-size: 12px;
+}
+
 .nav-arrow-down{
   margin-left: 16px;
 }
@@ -51,7 +56,28 @@ body{
 }
 
 .nav-button-cta{
-  font-size: 12px;
+  margin-left: 24px;
+  font-family: SharpSans !important;
+  font-size: 12px !important;
   background-color: #443DF6 !important;
-  padding: 11px 16px;
+  padding: 11px 16px !important;
+}
+
+.nav-button-cta:hover{
+  background-color: #3a34d1 !important;
+}
+
+.nav-button-lang{
+  font-family: SharpSans !important;
+  font-size: 12px !important;
+  background-color: transparent !important;
+  border: solid 2px #ccc !important;
+  padding: 11px 16px !important;
+  margin-left: 24px;
+}
+
+
+.nav-button-lang:hover{
+  background-color: transparent !important;
+  border: solid 2px black !important;
 }

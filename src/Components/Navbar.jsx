@@ -1,10 +1,6 @@
 import "./styles/Navbar.css"
 import VOOG_LOGO from "../assets/2020-nav-logo.svg"
 import ARROW_DOWN from "../assets/2020-arrow-down.svg"
-
-
-
-import {Box, Typography} from "@mui/material";
 function Navbar() {
 
 
@@ -17,8 +13,17 @@ function Navbar() {
         )
     }
 
+    function language(text){
+        return(
+            <span className="text-arrow lang-text">
+                <span><b>{text}</b></span>
+                <span className="nav-arrow-down"><img src={ARROW_DOWN}></img></span>
+            </span>
+        )
+    }
+
     return (
-        <div className="Navbar-start bg-info">
+        <div className="Navbar-start bg-transparent">
             <div className="navbar-inner">
                 <div className="nav-left">
                 <span>
@@ -30,10 +35,13 @@ function Navbar() {
                     <span className="nav-text text-arrow"><b>Partnerid</b></span>
                 </div>
                 <div className="nav-right">
-                <span>
-                    <button type="button" class="btn btn-primary nav-button-cta">Loo veebileht tasuta</button>
-                </span>
-
+                    {language("Eesti keeles")}
+                    <span>
+                        <button type="button" className="btn nav-button-lang"><b>Sisene</b></button>
+                    </span>
+                    <span>
+                        <button type="button" className="btn btn-primary nav-button-cta"><b>Loo veebileht tasuta</b></button>
+                    </span>
                 </div>
             </div>
 
