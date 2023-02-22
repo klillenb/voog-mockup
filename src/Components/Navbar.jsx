@@ -6,6 +6,18 @@ import VoimalusedTab from "./VoimalusedTab.jsx";
 import KujundusedTab from "./KujundusedTab.jsx";
 import MaterjalidTab from "./MaterjalidTab.jsx";
 function Navbar() {
+	function textAndArrow(text) {
+		return (
+			<span className="text-arrow nav-text">
+				<span>
+					<b>{text}</b>
+				</span>
+				<span className="nav-arrow-down">
+					<img src={ARROW_DOWN}></img>
+				</span>
+			</span>
+		);
+	}
 
     const [optionBar, setOptionBar] = useState(3)
 
