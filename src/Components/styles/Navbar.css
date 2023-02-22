@@ -8,8 +8,9 @@ body {
 	background-color: transparent;
 }
 
-.voog-logo {
-	margin: 0 32px 0 0;
+
+body{
+  font-family: SharpSans, sans-serif;
 }
 
 .nav-left {
@@ -18,10 +19,21 @@ body {
 	align-items: center;
 }
 
-.nav-text {
-	font-family: SharpSans;
-	margin-right: 24px;
-	font-size: 14px;
+.voog-logo{
+  margin: 0 32px 0 0}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+
+.text-inner{
+  display: flex;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
 }
 
 .lang-text {
