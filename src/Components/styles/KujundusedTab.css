@@ -1,0 +1,59 @@
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-20%);
+        opacity: 0%;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+.kujundused-tab-body{
+    animation: 0.1s 0s 1 slideFromTop;
+    position: fixed;
+    width: 100%;
+    padding: 74px 32px 32px;
+    background-color: white;
+}
+
+.kujundused-inner-tab{
+    width: 100%;
+    margin-left: 110px;
+    margin-top: 32px;
+    display: flex;
+    padding: 0;
+}
+
+.inner-inner-tab{
+    max-width: 256px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 32px;
+}
+
+.top-div{
+    font-size: 16px;
+    padding: 0 16px 16px 0;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+}
+
+.middle-div{
+    font-size: 16px;
+    padding: 16px 16px 16px 0;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+}
+
+.bottom-div{
+    font-size: 16px;
+    padding: 16px 16px 16px 0;
+    width: 100%;
+}
+
+text:hover{
+    cursor: pointer;
+    color: #3a34d1;
+}
