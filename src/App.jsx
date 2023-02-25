@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Videoplayer from "./components/Videoplayer";
 import EasyEdit from "./components/EasyEdit";
 import Testimonial from "./components/Testimonial";
+import DesignWebsite from "./components/DesignWebsite";
 
 export default function App() {
 	return (
@@ -15,6 +16,7 @@ export default function App() {
 				<Partners />
 				<EasyEdit />
 				<Testimonial />
+				<DesignWebsite />
 			</Box>
 		</Box>
 	);
