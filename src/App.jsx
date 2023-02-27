@@ -6,6 +6,7 @@ import Videoplayer from "./components/Videoplayer";
 import EasyEdit from "./components/EasyEdit";
 import Testimonial from "./components/Testimonial";
 import DesignWebsite from "./components/DesignWebsite";
+import Card from "./components/Card";
 
 export default function App() {
 	return (
@@ -17,6 +18,7 @@ export default function App() {
 				<EasyEdit />
 				<Testimonial />
 				<DesignWebsite />
+				<Card />
 			</Box>
 		</Box>
 	);
