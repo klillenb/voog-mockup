@@ -17,6 +17,9 @@ export default function Partners() {
 				<a class="partners" href="https://cleveron.ee/">
 					<img src="src/assets/cleveron.svg" />
 				</a>
+				<a class="partners" href="https://messente.com">
+					<img src="src/assets/Messente.svg" />
+				</a>
 			</Box>
 		</Box>
 	);

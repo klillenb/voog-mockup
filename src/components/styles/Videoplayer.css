@@ -1,0 +1,31 @@
+.video-description-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 84px;
+}
+
+.video-undertext-tagline h3 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	margin-right: 32px;
+	margin-bottom: 0;
+	flex: 1 0 auto;
+}
+
+.video-undertext-description {
+	max-width: 416px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4e4e4e;
+}
+
+.video-wrapper {
+	/* margin-top: 216px; */
+	margin-bottom: 64px;
+	padding: 0 72px;
+	position: relative;
+	max-width: 1136px;
+}
