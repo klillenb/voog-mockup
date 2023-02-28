@@ -13,6 +13,7 @@
 
 
 .materjalid-tab-body{
+    z-index: 1;
     animation: 0.1s 0s 1 slideFromTop;
     position: fixed;
     width: 100%;

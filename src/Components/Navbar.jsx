@@ -19,7 +19,7 @@ function Navbar() {
 		);
 	}
 
-    const [optionBar, setOptionBar] = useState(3)
+    const [optionBar, setOptionBar] = useState(0)
 
 
 
@@ -53,7 +53,7 @@ function Navbar() {
             {optionBar === 1 ? <VoimalusedTab/> : null}
             {optionBar === 2 ? <KujundusedTab/> : null}
             {optionBar === 3 ? <MaterjalidTab/> : null}
-            <div className="Navbar-start bg-transparent position-sticky">
+            <div className="Navbar-start">
                 <div className="navbar-inner">
                     <div className="nav-left">
                     <span>

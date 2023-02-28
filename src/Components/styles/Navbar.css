@@ -1,16 +1,11 @@
-body {
-	font-family: SharpSans, sans-serif;
-}
-
 .Navbar-start {
+	z-index: 10;
 	width: 100%;
 	padding: 32px;
-	background-color: transparent;
-}
-
-
-body{
-  font-family: SharpSans, sans-serif;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+	font-family: SharpSansBold !important;
 }
 
 .nav-left {
@@ -28,6 +23,8 @@ body{
 }
 
 .text-inner{
+	font-family: SharpSansBold !important;
+	font-size: 12px;
   display: flex;
 }
 
@@ -43,6 +40,11 @@ body{
 
 .nav-arrow-down {
 	margin-left: 16px;
+}
+
+.text-arrow{
+	margin-right: 24px;
+	font-size: 14px;
 }
 
 .text-arrow:hover {
