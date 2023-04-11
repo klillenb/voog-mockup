@@ -7,6 +7,7 @@ import EasyEdit from "./components/EasyEdit";
 import Testimonial from "./components/Testimonial";
 import DesignWebsite from "./components/DesignWebsite";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 export default function App() {
 	return (
@@ -19,6 +20,7 @@ export default function App() {
 				<Testimonial />
 				<DesignWebsite />
 				<Card />
+				<Footer />
 			</Box>
 		</Box>
 	);

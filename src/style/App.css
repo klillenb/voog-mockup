@@ -7,15 +7,11 @@
 	font-family: SharpSans;
 	src: url("../assets/Fonts/SharpSans-Bold.woff") format("woff");
 	font-weight: bold;
-
-
 }
 
 @font-face {
 	font-family: SharpSansBold;
 	src: url("../assets/Fonts/SharpSans-Semibold.woff") format("woff");
-
-
 }
 
 /* #root {
@@ -38,9 +34,12 @@ body {
 .main-body {
 	display: flex;
 	flex-direction: column;
-	margin: 0 12vw 0 12vw;
-	/* margin: 0 auto; */
-	padding: 2rem;
+
+	/* After commenting this out DesignWebsite component styling breaks */
+	/* But is needed for footer to work */
+	/* margin: 0 12vw 0 12vw; */
+	/* padding: 2rem; */
+
 	align-items: center;
 }
 
@@ -58,4 +57,3 @@ body {
 #root {
 	font-family: SharpSans, sans-serif !important;
 }
-
