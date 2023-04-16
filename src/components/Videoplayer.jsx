@@ -4,6 +4,19 @@ import "./styles/Videoplayer.css";
 export default function Videoplayer() {
 	return (
 		<Box className="video-wrapper">
+			<Box className="video-header">
+				<img src="src/assets/header-front_large.png" />
+				<Box className="video-header-text">
+					<h1>Tee ise koduleht!</h1>
+					<button
+						type="button"
+						className="btn btn-dark btn-sm"
+						onClick={() => (location.href = "https://www.voog.com/signup?language_code=et")}
+					>
+						Alusta tasuta!
+					</button>
+				</Box>
+			</Box>
 			<Box>
 				<iframe
 					src="https://player.vimeo.com/video/442642217?dnt=true&amp;background=true&amp;quality=auto"

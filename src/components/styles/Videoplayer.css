@@ -29,3 +29,40 @@
 	position: relative;
 	max-width: 1136px;
 }
+
+.video-header {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.video-header-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+}
+
+.video-header-text > button {
+	max-width: 50%;
+	height: 40px;
+	font-size: small;
+}
+
+.video-header-text > h1 {
+	font-weight: 510;
+	font-size: 65px;
+	line-height: 80px;
+	margin-bottom: 32px;
+}
+
+.video-header > img {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn-dark {
+	background-color: #000 !important;
+}
