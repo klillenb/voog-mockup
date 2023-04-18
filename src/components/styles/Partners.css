@@ -1,7 +1,6 @@
 .partners-wrapper {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: space-between;
 	position: relative;
 	max-width: 1136px;
@@ -45,7 +44,7 @@
 	/* text-align: center; */
 	font-size: 24px;
 	line-height: 48px;
-	font-weight: 600;
+	font-weight: 400;
 	margin-bottom: 16px;
 	color: black;
 }
@@ -53,6 +52,8 @@
 .partners-row {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+	width: 50%;
 }
 
 .partners img:hover {
@@ -61,20 +62,19 @@
 }
 
 .partners img {
-	max-height: 32px;
-	max-width: 128px;
+	height: 100%;
 	width: 100%;
 }
 
 .partners {
-	position: relative;
-	margin: 16px;
-	max-height: 32px;
-	max-width: 120px;
-	/**/
+	margin: 8px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	width: 100%;
+}
+
+.partners-text {
+	width: 40%;
 }

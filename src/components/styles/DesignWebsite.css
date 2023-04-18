@@ -1,8 +1,7 @@
 .design-wrapper {
-	margin-right: 24px;
 	margin-top: 64px;
 	margin-bottom: 64px;
-	width: 100%;
+	width: 60%;
 	justify-content: center;
 	/* flex-direction: column; */
 	display: flex;
@@ -62,8 +61,7 @@
 }
 
 .image-wrapper img {
-	max-width: 490px;
 	align-items: flex-end;
 	height: auto;
-	/* width: 100%; */
+	width: 100%;
 }

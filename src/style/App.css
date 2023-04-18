@@ -37,8 +37,8 @@ body {
 
 	/* After commenting this out DesignWebsite component styling breaks */
 	/* But is needed for footer to work */
-	/* margin: 0 12vw 0 12vw; */
-	/* padding: 2rem; */
+	margin: 0 12vw 0 12vw; 
+	padding: 2rem;
 
 	align-items: center;
 }

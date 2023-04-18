@@ -27,7 +27,6 @@ export default function Card() {
 	return (
 		<Box className="card-wrapper">
 			{cardData.map((card) => {
-				console.log(card.title);
 				return (
 					<Box className="card-component">
 						<img src={card.img} />

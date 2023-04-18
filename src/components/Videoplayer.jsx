@@ -17,13 +17,13 @@ export default function Videoplayer() {
 					</button>
 				</Box>
 			</Box>
-			<Box>
+			<Box className="iframe-wrapper">
 				<iframe
 					src="https://player.vimeo.com/video/442642217?dnt=true&amp;background=true&amp;quality=auto"
 					allow="autoplay; fullscreen"
-					allowfullscreen=""
-					width="640"
-					height="368"
+					class="iframe-item"
+					width="870"
+					height="770"
 					frameborder="0"
 				></iframe>
 			</Box>
