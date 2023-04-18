@@ -1,9 +1,9 @@
 .Navbar-start {
 	z-index: 10;
 	width: 100%;
-	padding: 32px;
+	padding: 24px 32px;
 	background-color: white;
-	position: sticky;
+	position: fixed;
 	top: 0px;
 	font-family: SharpSansBold !important;
 }
@@ -25,7 +25,7 @@
 .text-inner{
 	font-family: SharpSansBold !important;
 	font-size: 12px;
-  display: flex;
+  	display: flex;
 }
 
 .nav-right{

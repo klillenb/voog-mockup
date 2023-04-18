@@ -3,8 +3,9 @@
 	flex-direction: row;
 	position: relative;
 	justify-content: space-between;
-	margin-top: 15%;
-	padding: 25px 72px;
+	margin-top: 84px;
+	width: 90%;
+	padding: 47px 72px;
 }
 
 .video-undertext-tagline h3 {
@@ -14,6 +15,10 @@
 	margin-right: 32px;
 	margin-bottom: 0;
 	flex: 1 0 auto;
+}
+
+.video-undertext-tagline {
+
 }
 
 .video-undertext-description {
@@ -28,6 +33,11 @@
 	margin-bottom: 64px;
 	position: relative;
 	max-width: 1136px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: 0;!important;
 }
 
 #video {
@@ -41,6 +51,7 @@
 	position: absolute;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 	margin-top: 60px;
 	z-index: 2;
 }
@@ -72,4 +83,17 @@
 
 .btn-dark {
 	background-color: #000 !important;
+}
+
+@media only screen and (max-width: 900px) {
+.video-description-wrapper {
+	flex-direction: column;
+	justify-content: start;
+	width: 100%;
+}
+	.video-undertext-description {
+		width: 100%;
+		margin-top: 20px;
+		max-width: 100%;
+	}
 }

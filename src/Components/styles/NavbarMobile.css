@@ -1,0 +1,61 @@
+.mobile-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 24px 24px;
+    height: 80px ;
+}
+
+.burger-div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+    cursor: pointer;
+}
+
+.mobile-menu-top {
+    width: 100%;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.close-X {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.expansion-panel {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.accordion {
+    box-shadow: none;
+}
+
+.kujundus-list-item {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 16px 0px;
+    width: 100%;
+    border-bottom: solid lightgrey 1px;
+    cursor: pointer;
+}
+
+.button-1 {
+    border-color: darkgrey ;
+}
+
+.button-2 {
+    background-color: #443df6;
+}

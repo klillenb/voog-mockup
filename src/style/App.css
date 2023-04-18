@@ -18,8 +18,6 @@ body {
 	line-height: 1.6em;
 	width: 100%;
 	height: 100%;
-	padding: 0;
-	margin: 0;
 }
 
 .main-body {
@@ -46,3 +44,31 @@ body {
 #root {
 	font-family: SharpSans, sans-serif !important;
 }
+
+.navbar-class{
+	visibility: visible;
+}
+
+.navbar-mobile-class {
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+	.navbar-class {
+		visibility: hidden;
+	}
+
+	.navbar-mobile-class {
+		visibility: visible;
+	}
+
+	.main-body {
+		margin: 0;
+		padding: 0px 10px;
+	}
+
+
+
+}
+
+
