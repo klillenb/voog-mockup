@@ -4,7 +4,7 @@ import "./styles/Partners.css";
 export default function Partners() {
 	return (
 		<Box className="partners-wrapper">
-			<Box sx={{ minWidth: "initial", maxWidth: "initial" }}>
+			<Box className="partners-text">
 				<h5>Ühine teiste edukate Voo kasutajatega.</h5>
 			</Box>
 			<Box className="partners-row">

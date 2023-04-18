@@ -20,8 +20,8 @@ export default function App() {
 				<Testimonial />
 				<DesignWebsite />
 				<Card />
-				<Footer />
 			</Box>
+			<Footer />
 		</Box>
 	);
 }

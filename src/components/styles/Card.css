@@ -1,5 +1,5 @@
 .card-component {
-	padding: 20px 0;
+	/* padding: 20px 0; */
 	max-width: 344px;
 }
 
@@ -7,7 +7,7 @@
 	height: 240px;
 }
 
-.card-component h4 {
+.card-component > h4 {
 	margin-top: 40px;
 	font-weight: 700;
 	font-size: 32px;
@@ -20,9 +20,10 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	row-gap: 10px;
 	padding-top: 20px;
 	padding-bottom: 56px;
-	max-width: 1136px;
+	width: 60%;
 }
 
 .card-component p {
