@@ -1,8 +1,9 @@
 .video-description-wrapper {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 	justify-content: space-between;
-	margin-top: 84px;
+	margin-top: 15%;
 }
 
 .video-undertext-tagline h3 {
@@ -23,19 +24,24 @@
 }
 
 .video-wrapper {
-	/* margin-top: 216px; */
 	margin-bottom: 64px;
-	padding: 0 72px;
 	position: relative;
 	max-width: 1136px;
 }
 
+#video {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
 .video-header {
 	display: flex;
-	position: relative;
+	position: absolute;
 	justify-content: center;
 	align-items: center;
 	margin-top: 60px;
+	z-index: 2;
 }
 
 .video-header-text {

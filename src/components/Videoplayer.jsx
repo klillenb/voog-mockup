@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import "./styles/Videoplayer.css";
+import backgroundVideo from "../assets/voog-video.mp4";
 
 export default function Videoplayer() {
 	return (
@@ -17,15 +18,10 @@ export default function Videoplayer() {
 					</button>
 				</Box>
 			</Box>
-			<Box className="iframe-wrapper">
-				<iframe
-					src="https://player.vimeo.com/video/442642217?dnt=true&amp;background=true&amp;quality=auto"
-					allow="autoplay; fullscreen"
-					class="iframe-item"
-					width="870"
-					height="770"
-					frameborder="0"
-				></iframe>
+			<Box className="video-wrapper">
+				<video autoPlay loop muted id="video">
+					<source src={backgroundVideo} type="video/mp4" />
+				</video>
 			</Box>
 			<Box className="video-description-wrapper">
 				<Box className="video-undertext-tagline">
