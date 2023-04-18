@@ -1,0 +1,39 @@
+.materjalid-tab-body-mobiil {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.tab-div-top {
+    display: flex;
+    padding: 16px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.voimalused-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div-mobile {
+    margin-right: 24px;
+}
+
+.mobile-bottom-text {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.inner-tab-mobiil {
+    width: 100%;
+}
+
+.tab-div-center{
+    display: flex;
+    padding: 16px 0px;
+    width: 100%;
+    border-top: solid lightgrey 1px;
+    cursor: pointer;
+}

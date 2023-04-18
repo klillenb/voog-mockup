@@ -1,0 +1,31 @@
+.voimalused-tab-mobiil-body {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.voimalused-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div-mobile {
+    margin-right: 24px;
+}
+
+.mobile-bottom-text {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.inner-tab-mobiil {
+    width: 100%;
+}
+
+.tab-div-mobile{
+    display: flex;
+    padding: 16px 0px;
+    width: 100%;
+    border-bottom: solid lightgrey 1px;
+    cursor: pointer;
+}
