@@ -14,17 +14,8 @@
 	src: url("../assets/Fonts/SharpSans-Semibold.woff") format("woff");
 }
 
-/* #root {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 2rem;
-	text-align: center;
-	font-family: "Sharp Sans" sans-serif;
-} */
-
 body {
 	line-height: 1.6em;
-	/* overflow: hidden; */
 	width: 100%;
 	height: 100%;
 	padding: 0;
@@ -35,9 +26,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	/* After commenting this out DesignWebsite component styling breaks */
-	/* But is needed for footer to work */
-	margin: 0 12vw 0 12vw; 
+	margin: 0 12vw 0 12vw;
 	padding: 2rem;
 
 	align-items: center;
