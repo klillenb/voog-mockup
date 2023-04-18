@@ -30,7 +30,7 @@ export default function Footer() {
 				})}
 			</Box>
 			<Box className="footer-bottom">
-				<p>©2022 Voog, hello@voog.com</p>
+				<p>©2023 Voog, hello@voog.com</p>
 				<Box className="footer-bottom-links">
 					<a href="https://www.voog.com/#">Küpsiste seaded</a>
 					<a href="https://www.voog.com/privaatsus">Privaatsuseeskiri</a>
