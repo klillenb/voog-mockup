@@ -13,6 +13,16 @@ export default function App() {
 	return (
 		<Box>
 			<Navbar />
+			<Box
+				sx={{
+					backgroundColor: "rgb(218, 228, 230)",
+					position: "absolute",
+					zIndex: "2",
+					top: "0",
+					width: "100%",
+					height: "819px",
+				}}
+			/>
 			<Box className="main-body">
 				<Videoplayer />
 				<Partners />
