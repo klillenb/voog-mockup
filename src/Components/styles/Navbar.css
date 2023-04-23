@@ -8,41 +8,36 @@
 	font-family: SharpSansBold !important;
 }
 
+.voog-logo {
+	margin: 0 32px 0 0;
+}
+
 .nav-left {
-	height: 42px;
 	display: flex;
 	align-items: center;
 }
 
-.voog-logo{
-  margin: 0 32px 0 0}
-
-.nav-left{
-  display: flex;
-  align-items: center;
+.text-inner {
+	/* font-family: SharpSansBold !important; */
+	/* font-size: 12px; */
+	display: flex;
 }
 
-.text-inner{
-	font-family: SharpSansBold !important;
-	font-size: 12px;
-  	display: flex;
-}
-
-.nav-right{
-  display: flex;
-  align-items: center;
+.nav-right {
+	display: flex;
+	align-items: center;
 }
 
 .lang-text {
-	font-family: SharpSans;
-	font-size: 12px;
+	/* font-family: SharpSans; */
+	font-size: 12px !important;
 }
 
 .nav-arrow-down {
 	margin-left: 16px;
 }
 
-.text-arrow{
+.text-arrow {
 	margin-right: 24px;
 	font-size: 14px;
 }
@@ -73,8 +68,9 @@
 .nav-button-lang {
 	font-family: SharpSans !important;
 	font-size: 12px !important;
+	font-weight: 400;
 	background-color: transparent !important;
-	border: solid 2px #ccc !important;
+	border: 2px solid rgba(0, 0, 0, 0.1) !important;
 	padding: 11px 16px !important;
 	margin-left: 24px;
 }
