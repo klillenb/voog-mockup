@@ -21,6 +21,22 @@
 	}
 }
 
+@media screen and (max-width: 900px) {
+	.easyedit-wrapper {
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+
+	.column-image-wrapper {
+		width: 100% !important;
+	}
+
+	.column-text {
+		width: 100% !important;
+		padding-left: 0 !important;
+	}
+}
+
 .column-image-wrapper {
 	padding: 0;
 	margin-right: 24px;
