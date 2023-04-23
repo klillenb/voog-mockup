@@ -64,3 +64,18 @@
 	height: auto;
 	width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+	.design-wrapper {
+		flex-direction: column-reverse;
+		margin: 50px 20px 0;
+	}
+
+	.design-text-wrapper {
+		width: 100%;
+	}
+
+	.image-wrapper {
+		width: 100%;
+	}
+}
