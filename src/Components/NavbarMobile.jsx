@@ -2,9 +2,8 @@ import "./styles/NavbarMobile.css";
 import VOOG_LOGO from "/assets/2020-nav-logo.svg";
 import ARROW_DOWN from "/assets/2020-arrow-down.svg";
 import { useState } from "react";
-import VoimalusedTab from "./VoimalusedTabMobiil.jsx";
-// import KujundusedTab from "./KujundusedTab";
-import MaterjalidTab from "./MaterjalidTabMobiil.jsx";
+import VoimalusedTab from "./VoimalusedTabMobiil";
+import MaterjalidTab from "./MaterjalidTabMobiil";
 import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Drawer, Typography } from "@mui/material";
 function Navbar() {
 	const [optionBar, setOptionBar] = useState(false);
