@@ -96,7 +96,7 @@ export default function Videoplayer() {
 			<Box ref={videoBackgroundRef} className="video-background" />
 			{/* bottomWrapper */}
 			<Box ref={headerRef} className="video-header">
-				<img src="/resources/header-front_large.png" />
+				<img src="voog-mockup/resources/header-front_large.png" />
 				<Box className="video-header-text">
 					<h1>Tee ise koduleht!</h1>
 					<button

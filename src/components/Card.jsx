@@ -6,20 +6,20 @@ const cardData = [
 		title: "SEO-sõbralikud veebilehed",
 		content: "Meie SEO tööristad aitavad sul teha oma lehed otsingumootorites kergesti leitavaks.",
 		link: "Õpi SEO kohta lähemalt",
-		img: "/resources/card-seo.png",
+		img: "voog-mockup/resources/card-seo.png",
 	},
 	{
 		title: "Kasutaja­sõbralikud kujundused",
 		content: "Voo disain on lihtsasti muudetav ja lubab sul anda oma veebipoele ainukordse välimuse.",
 		link: "Vali kujundus",
-		img: "/resources/card-design.png",
+		img: "voog-mockup/resources/card-design.png",
 	},
 	{
 		title: "Arendajasõbralik keskkond",
 		content:
 			"Seadista oma veebipoes turvalised maksete vastuvõtmise lahendused. Voogu on sisse ehitatud rea tuntud maksevahendusplatvormide tugi.",
 		link: "Loe dokumentatsiooni",
-		img: "/resources/card-environment.png",
+		img: "voog-mockup/resources/card-environment.png",
 	},
 ];
 
