@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import "./styles/Videoplayer.css";
-import backgroundVideo from "/assets/voog-video.mp4";
+import backgroundVideo from "/resources/voog-video.mp4";
 import { useCallback, useEffect, useState, useRef } from "react";
 
 export default function Videoplayer() {
@@ -96,7 +96,7 @@ export default function Videoplayer() {
 			<Box ref={videoBackgroundRef} className="video-background" />
 			{/* bottomWrapper */}
 			<Box ref={headerRef} className="video-header">
-				<img src="/assets/header-front_large.png" />
+				<img src="/resources/header-front_large.png" />
 				<Box className="video-header-text">
 					<h1>Tee ise koduleht!</h1>
 					<button

@@ -23,9 +23,9 @@ export default function DesignWebsite() {
 			</Box>
 			<Box className="image-wrapper">
 				<img
-					src="/assets/design-your-website-voog-2x_block.png"
+					src="/resources/design-your-website-voog-2x_block.png"
 					sizes="(min-width: 500px) 500px"
-					srcSet="/assets/design-your-website-voog-2x.png 1000w, src/assets/design-your-website-voog-2x_block.png 521w, src/assets/design-your-website-voog-2x_medium.png 130w"
+					srcSet="/resources/design-your-website-voog-2x.png 1000w, src/resources/design-your-website-voog-2x_block.png 521w, src/resources/design-your-website-voog-2x_medium.png 130w"
 				/>
 			</Box>
 		</Box>

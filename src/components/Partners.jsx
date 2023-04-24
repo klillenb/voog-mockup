@@ -9,16 +9,16 @@ export default function Partners() {
 			</Box>
 			<Box className="partners-row">
 				<a class="partners" href="https://guardtime.com">
-					<img src="/assets/guardtime.svg" />
+					<img src="/resources/guardtime.svg" />
 				</a>
 				<a class="partners" href="https://playtech.ee/">
-					<img src="/assets/Playtech.svg" />
+					<img src="/resources/Playtech.svg" />
 				</a>
 				<a class="partners" href="https://cleveron.ee/">
-					<img src="/assets/cleveron.svg" />
+					<img src="/resources/cleveron.svg" />
 				</a>
 				<a class="partners" href="https://messente.com">
-					<img src="/assets/Messente.svg" />
+					<img src="/resources/Messente.svg" />
 				</a>
 			</Box>
 		</Box>
