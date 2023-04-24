@@ -1,5 +1,4 @@
 .card-component {
-	/* padding: 20px 0; */
 	max-width: 344px;
 }
 
@@ -23,7 +22,8 @@
 	row-gap: 10px;
 	padding-top: 20px;
 	padding-bottom: 56px;
-	width: 60%;
+	max-width: 1136px;
+	width: 100%;
 }
 
 .card-component p {

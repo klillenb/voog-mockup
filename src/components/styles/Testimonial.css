@@ -3,11 +3,10 @@
 	border-color: #efefef;
 	border-style: solid;
 	border-width: 1px 0;
-	width: 50%;
+	width: 80%;
+	max-width: 1136px;
 	display: flex;
 	justify-content: center;
-	/* margin-right: 96px; */
-	/* margin-left: 96px; */
 }
 
 .testimonial-content {
