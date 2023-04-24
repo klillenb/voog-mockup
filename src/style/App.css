@@ -1,17 +1,17 @@
 @font-face {
 	font-family: SharpSans;
-	src: url("../assets/Fonts/SharpSans-Medium.woff") format("woff");
+	src: url("/assets/Fonts/SharpSans-Medium.woff") format("woff");
 }
 
 @font-face {
 	font-family: SharpSans;
-	src: url("../assets/Fonts/SharpSans-Bold.woff") format("woff");
+	src: url("/assets/Fonts/SharpSans-Bold.woff") format("woff");
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: SharpSansBold;
-	src: url("../assets/Fonts/SharpSans-Semibold.woff") format("woff");
+	src: url("/assets/Fonts/SharpSans-Semibold.woff") format("woff");
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 	font-family: SharpSans, sans-serif !important;
 }
 
-.navbar-class{
+.navbar-class {
 	visibility: visible;
 }
 
@@ -66,9 +66,4 @@ body {
 		margin: 0;
 		padding: 0px 10px;
 	}
-
-
-
 }
-
-

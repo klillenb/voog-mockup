@@ -1,6 +1,6 @@
 import "./styles/NavbarMobile.css";
-import VOOG_LOGO from "../assets/2020-nav-logo.svg";
-import ARROW_DOWN from "../assets/2020-arrow-down.svg";
+import VOOG_LOGO from "/assets/2020-nav-logo.svg";
+import ARROW_DOWN from "/assets/2020-arrow-down.svg";
 import { useState } from "react";
 import VoimalusedTab from "./VoimalusedTabMobiil.jsx";
 // import KujundusedTab from "./KujundusedTab";

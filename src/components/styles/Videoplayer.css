@@ -52,10 +52,8 @@
 .video-background {
 	background-color: rgb(218, 228, 230);
 	position: absolute;
-	/* z-index: 1; */
 	top: 0;
 	width: 139.8%;
-	/* height: 819px; */
 }
 
 .video-header {
@@ -64,7 +62,6 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	/* margin-top: 60px; */
 	z-index: 2;
 }
 

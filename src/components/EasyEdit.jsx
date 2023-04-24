@@ -7,16 +7,16 @@ export default function EasyEdit() {
 			<Box className="column-image-wrapper">
 				<img
 					class="column-image"
-					src="src/assets/website-easy-to-edit-voog_large.png"
+					src="/assets/website-easy-to-edit-voog_large.png"
 					sizes="(min-width: 500px) 500px"
-					srcSet="src/assets/website-easy-to-edit-voog.png 980w, src/assets/website-easy-to-edit-voog_large.png 817w, src/assets/website-easy-to-edit-voog_block.png 383w, src/assets/website-easy-to-edit-voog_medium.png 96w"
+					srcSet="/assets/website-easy-to-edit-voog.png 980w, /assets/website-easy-to-edit-voog_large.png 817w, /assets/website-easy-to-edit-voog_block.png 383w, /assets/website-easy-to-edit-voog_medium.png 96w"
 				/>
 			</Box>
 			<Box className="column-text">
 				<h3>Lihtne muuta.</h3>
 				<p>
-					Loo oma veebileht või e-pood minutitega. Vooga võtab see väga vähe aega. Ja kui sul on küsimusi,
-					siis meie kasutajatugi on sulle alati abiks.
+					Loo oma veebileht või e-pood minutitega. Vooga võtab see väga vähe aega. Ja kui sul on küsimusi, siis meie
+					kasutajatugi on sulle alati abiks.
 				</p>
 				<Box className="column-link-group">
 					<a class="column-link" href="https://voog.com/veebid">

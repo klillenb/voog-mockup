@@ -1,87 +1,78 @@
-
 @keyframes slideFromTop {
-    0% {
-        transform: translateY(-20%);
-        opacity: 0%;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 100%;
-    }
+	0% {
+		transform: translateY(-20%);
+		opacity: 0%;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 100%;
+	}
 }
 
-
-
-.materjalid-tab-body{
-    z-index: 1;
-    animation: 0.1s 0s 1 slideFromTop;
-    position: fixed;
-    width: 100%;
-    padding: 74px 32px 32px;
-    background-color: white;
+.materjalid-tab-body {
+	z-index: 1;
+	animation: 0.1s 0s 1 slideFromTop;
+	position: fixed;
+	width: 100%;
+	padding: 74px 32px 32px;
+	background-color: white;
 }
 
-.materjalid-inner-tab{
-    margin: 32px 0 0 110px;
-    display: flex;
+.materjalid-inner-tab {
+	margin: 32px 0 0 110px;
+	display: flex;
 }
 
-.img-class{
-    height: 48px;
-    width: 48px;
-    background-color: rgb(68,61,246);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 24px;
+.img-class {
+	height: 48px;
+	width: 48px;
+	background-color: rgb(68, 61, 246);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
 }
 
-.img2-class{
-    height: 48px;
-    width: 48px;
-    background-color: rgb(25,20,137);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 24px;
+.img2-class {
+	height: 48px;
+	width: 48px;
+	background-color: rgb(25, 20, 137);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
 }
 
-.materjalid-left-tab{
-    display: flex;
-    flex-direction: column;
-    padding: 16px 15px 16px 24px;
-    margin: -16px -15px -16px 0;
-    max-width: 193px;
-    border-radius: 10px;
+.materjalid-left-tab {
+	display: flex;
+	flex-direction: column;
+	padding: 16px 15px 16px 24px;
+	margin: -16px -15px -16px 0;
+	max-width: 193px;
+	border-radius: 10px;
 }
 
-.materjalid-left-tab:hover{
-    cursor: pointer;
-    background-color: #fbfbfb;
-
+.materjalid-left-tab:hover {
+	cursor: pointer;
+	background-color: #fbfbfb;
 }
 
-.materjalid-left-tab:hover text{
-    color: #3a34d1;
+.materjalid-left-tab:hover text {
+	color: #3a34d1;
 }
 
-.div-bottom{
-    margin: 12px 0 0;
-    font-size: 12px;
-    color: #8D9091;
-    line-height: 18px;
+.div-bottom {
+	margin: 12px 0 0;
+	font-size: 12px;
+	color: #8d9091;
+	line-height: 18px;
 }
 
-.div-middle{
-    font-size: 14px;
-    margin: 24px 0 0 0;
+.div-middle {
+	font-size: 14px;
+	margin: 24px 0 0 0;
 }
 
-.margin-change{
-    margin: -16px 16px -16px 48px !important;
+.margin-change {
+	margin: -16px 16px -16px 48px !important;
 }
-
-
-
-
-

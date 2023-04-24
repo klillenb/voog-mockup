@@ -18,8 +18,6 @@
 }
 
 .text-inner {
-	/* font-family: SharpSansBold !important; */
-	/* font-size: 12px; */
 	display: flex;
 }
 
@@ -29,7 +27,6 @@
 }
 
 .lang-text {
-	/* font-family: SharpSans; */
 	font-size: 12px !important;
 }
 
