@@ -9,7 +9,7 @@ export default function EasyEdit() {
 					class="column-image"
 					src="voog-mockup/resources/website-easy-to-edit-voog_large.png"
 					sizes="(min-width: 500px) 500px"
-					srcSet="voog-mockup/resources/website-easy-to-edit-voog.png 980w, voog-mockup/resources/website-easy-to-edit-voog_large.png 817w, voog-mockup/resources/website-easy-to-edit-voog_block.png 383w, voog-mockup/resources/website-easy-to-edit-voog_medium.png 96w"
+					srcSet="/voog-mockup/resources/website-easy-to-edit-voog.png 980w, /voog-mockup/resources/website-easy-to-edit-voog_large.png 817w, /voog-mockup/resources/website-easy-to-edit-voog_block.png 383w, /voog-mockup/resources/website-easy-to-edit-voog_medium.png 96w"
 				/>
 			</Box>
 			<Box className="column-text">

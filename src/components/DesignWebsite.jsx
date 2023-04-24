@@ -25,7 +25,7 @@ export default function DesignWebsite() {
 				<img
 					src="voog-mockup/resources/design-your-website-voog-2x_block.png"
 					sizes="(min-width: 500px) 500px"
-					srcSet="voog-mockup/resources/design-your-website-voog-2x.png 1000w, voog-mockup/resources/design-your-website-voog-2x_block.png 521w, voog-mockup/resources/design-your-website-voog-2x_medium.png 130w"
+					srcSet="/voog-mockup/resources/design-your-website-voog-2x.png 1000w, /voog-mockup/resources/design-your-website-voog-2x_block.png 521w, /voog-mockup/resources/design-your-website-voog-2x_medium.png 130w"
 				/>
 			</Box>
 		</Box>
